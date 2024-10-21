@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ALCARAZ SGBD</title>
+    <meta charset="UTF-8" />
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <section class="login" >
+
+        <header>
+            <h1>Alcaraz S G B D</h1>
+        </header>
+        
+        <section class="loginWindow">
+
+            <form name="loginForm" method="post" action="php/login.php">
+
+                <p>User Name: </p>
+                <input class="textInput" name="userName" type="text" placeholder="Username" pattern="[a-zA-Z0-9]+"
+                    required />
+
+                <p>Password: </p>
+                <input class="textInput" name="password" type="password" placeholder="Password" maxlength="20"
+                    autocomplete="off" required />
+
+                <br><br>
+
+                <input class="button" name="sendLogin" type="submit" value="Log In" />
+            </form>
+            <br>
+        </section>
+
+    </section>
+
+    <footer>
+        <p>Made by marcos.alcaraz0260@alumnos.udg.mx</p>
+    </footer>
+</body>
+
+</html>

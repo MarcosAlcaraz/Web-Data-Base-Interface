@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alcaraz SGBD - Delete</title>
+        <meta charset="UTF-8" />
+    </head>
+    
+    <body>
+        <header>
+            <h1>Alcaraz SGBD / Delete</h1>
+            <a href="php/home.php" >Back</a>
+        </header>
+
+        <section>
+            
+            <section>
+
+                <form name="selectform" method="post" action="php/delete.php">
+
+                    <h3>Table:</h3>
+                    <input name="table" type="text" placeholder="Table" required>
+
+                    <h3>Condition:</h3>
+                    <input name="columncondition" type="text" placeholder="Column" required>
+                    <br>
+                    <input name="operatorcondition" type="text" placeholder="Operator" required>
+                    <br>
+                    <input name="valuecondition" type="text" placeholder="Value" required>
+                    <br>
+                    <input name="confirmation" type="text" placeholder="Type Delete" required>
+                    <br>
+                    <input name="sendselect" type="submit">
+
+                </form>
+
+            </section>
+
+            <footer>
+                <p>Made by marcosalcaraz0260@alumnos.udg.mx</p>
+            </footer>
+
+        </section>
+
+    </body>
+</html>

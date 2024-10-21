@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Select - Alcaraz SGBD</title>
+        <meta charset="UTF-8" />
+        <link href="../css/select.css" />
+
+    </head>
+    
+    <body>
+        <header>
+
+            <h1>Alcaraz SGBD / Select</h1>
+            <a href="php/home.php">Back</a>
+            
+        </header>
+
+        <section>
+            
+            <section>
+
+                <form name="selectform" method="post" action="php/select.php">
+
+                    <h3>Table:</h3>
+                    <input name="table" type="text" placeholder="Table" required>
+
+                    <h3>Column:</h3>
+                    <input name="column" type="text" placeholder="Column">
+
+                    <h3>Condition:</h3>
+                    <input name="columncondition" type="text" placeholder="Column">
+                    <br>
+                    <input name="operatorcondition" type="text" placeholder="Operator">
+                    <br>
+                    <p>If value is string, write like 'example':</p>
+                    <input name="valuecondition" type="text" placeholder="Value">
+                    <br>
+                    <input name="sendselect" type="submit">
+
+                </form>
+
+            </section>
+
+            <footer>
+                <p>Made by marcosalcaraz0260@alumnos.udg.mx</p>
+            </footer>
+
+        </section>
+    </body>
+</html>
